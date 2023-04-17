@@ -12,31 +12,33 @@ public class Date {
         this.day = day;
     }
 
-    public void updateYear(int newYear){
+    public void setYear(int newYear){
         this.year = newYear;
     }
 
-    public void updateMonth(int newMonth){
+    public void setMonth(int newMonth){
         this.month = newMonth;
     }
 
-    public void updateDay(int newDay){
+    public void setDay(int newDay){
         this.day = newDay;
     }
 
-    public int returnYear(){
+    public int getYear(){
         return this.year;
     }
 
-    public int returnMonth(){
+    public int getMonth(){
         return this.month;
     }
 
-    public int returnDay(){
+    public int getDay(){
         return this.day;
     }
 
     public String getYyMmDd(){
         return (year + "-" + month + "-" + day);
     }
+
 }
+
